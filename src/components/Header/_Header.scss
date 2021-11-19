@@ -10,7 +10,7 @@
   }
 
   .header__contents {
-    position: fixed;
+    position: absolute;
     top: 0;
     width: 100%;
     z-index: 99;
@@ -35,14 +35,21 @@
         display: flex;
 
         li + li {
-          margin-left: 30px;
+          margin-left: 40px;
         }
 
         li {
+          display: block;
+
           a {
             color: $font-white;
             @include fontJosefin;
             font-weight: bold;
+            padding-bottom: 7px;
+
+            &:hover {
+              border-bottom: 2px solid #fff;
+            }
           }
         }
       }
