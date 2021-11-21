@@ -6,7 +6,7 @@
 
 .main-creations {
   display: grid;
-  margin: 12% auto 20% auto;
+  margin: 12% auto 7% auto;
 
   .main-creations__title {
     margin: 0 auto 5% auto;
@@ -159,7 +159,7 @@
 
   @media screen and (max-width: 600px) {
     grid-template-columns: 100%;
-    margin: 12% auto;
+    margin: 12% auto 140px auto;
     position: relative;
 
     .main-creations__title {

@@ -5,11 +5,12 @@
     .main-leader__contents {
       display: flex;
       align-items: center;
+      justify-content: center;
       width: 100%;
       margin: 0 auto 0 5%;
 
       img {
-        width: 50%;
+        width: 100%;
         display: block;
       }
 
@@ -17,21 +18,22 @@
         background-color: #fff;
         position: relative;
         left: -120px;
-        top: 95px;
+        top: 100px;
         padding: 60px 50px 0 50px;
         width: 100%;
 
         h2 {
           @include fontJosefin;
           text-transform: uppercase;
-          font-size: 2.7rem;
+          font-size: 2.1rem;
+          width: 60%;
         }
 
         p {
           @include fontAlata;
           color: $font-dark-gray;
           font-size: 1rem;
-          width: 90%;
+          width: 100%;
           margin: 20px 0;
         }
       }
@@ -43,11 +45,15 @@
       .main-leader__contents {
         width: 90%;
 
+        img {
+          width: 100%;
+        }
         figcaption {
-          top: 35px;
+          top: 55px;
 
           h2 {
-            font-size: 2.4rem;
+            font-size: 2rem;
+            width: 80%;
           }
 
           p {
@@ -75,6 +81,7 @@
 
           h2 {
             font-size: 2rem;
+            width: 100%;
           }
 
           p {
@@ -110,6 +117,7 @@
             font-size: 2rem;
             text-align: center;
             padding: 60px 0 20px 0;
+            width: 100%;
           }
           p {
             width: 90%;
